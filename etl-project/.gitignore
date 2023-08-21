@@ -1,0 +1,45 @@
+### Gradle template
+**/build/
+
+.idea/libraries
+
+.build/
+.gradle/
+build/
+tmp/
+.tmp/
+.registry/
+
+**/build/
+**/out
+gradle-app.setting
+!gradle-wrapper.jar
+.gradletasknamecache
+.kotlintest/
+tmp/
+**/tmp
+
+
+projectBackupFiles
+
+# CONTENT
+.rep
+
+# IDEA
+*.iml
+*.log
+*.hprof
+/.idea/workspace.xml
+/.idea/jarRepositories.xml
+/.idea/gradle.xml
+/.idea/csv-editor.xml
+/.idea/aws.xml
+/.idea/shelf/
+/.idea/.name
+/.idea/compiler.xml
+/.idea/kotlinc.xml
+/.idea/misc.xml
+/.idea/vcs.xml
+/.idea/uiDesigner.xml
+
+lint-errors.txt
