@@ -1,6 +1,7 @@
+import org.gradle.internal.impldep.org.junit.experimental.categories.Categories.CategoryFilter.include
+
 plugins {
     kotlin("jvm") version "1.8.20"
-    id("org.jetbrains.kotlin.plugin.serialization") version "1.9.0"
     application
 }
 
@@ -13,3 +14,5 @@ repositories {
 kotlin {
     jvmToolchain(11)
 }
+
+

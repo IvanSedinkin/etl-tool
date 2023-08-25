@@ -1,3 +1,4 @@
+import com.sedinkin.model.ScrapingResult
 import it.skrape.core.htmlDocument
 import it.skrape.fetcher.HttpFetcher
 import it.skrape.fetcher.extractIt
@@ -22,8 +23,8 @@ fun main(){
                         findAll{this}
                     }
                 }
-                countryRows.forEach {
-
+                countryRows.drop(2).forEach {
+                    println(it)
                 }
             }
         }

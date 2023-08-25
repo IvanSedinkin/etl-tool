@@ -11,8 +11,5 @@ repositories {
 
 dependencies {
     implementation("it.skrape:skrapeit:1.2.2")
-}
-
-tasks.getByName<Test>("test") {
-    useJUnitPlatform()
+    implementation("com.google.code.gson:gson:2.10.1")
 }
